@@ -1,18 +1,19 @@
 import createEmotionServer from "@emotion/server/create-instance";
 
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import * as React from "react";
+import { ServerStyleSheets } from "@material-ui/styles";
 
-import createEmotionCache from "/src/createEmotionCache";
-import theme from "/src/theme";
+import Document, { Head, Html, Main, NextScript } from "next/document";
+import React from "react";
+
+import { cache } from "/pages/_app";
+
+const { extractCritical } = createEmotionServer(cache);
 
 export default class FishbowlDocument extends Document {
   render() {
     return (
       <Html lang="ko">
-        <Head>
-          <meta name="theme-color" content={theme.palette.primary.main} />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
@@ -23,35 +24,27 @@ export default class FishbowlDocument extends Document {
 }
 
 FishbowlDocument.getInitialProps = async (ctx) => {
+  const sheets = new ServerStyleSheets();
   const originalRenderPage = ctx.renderPage;
-
-  const cache = createEmotionCache();
-  const { extractCriticalToChunks } = createEmotionServer(cache);
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: function enhanceApp(App) {
-        return function _enhanceApp(props) {
-          return <App emotionCache={cache} {...props} />;
-        };
-      },
+      enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
     });
 
   const initialProps = await Document.getInitialProps(ctx);
-  const emotionStyles = extractCriticalToChunks(initialProps.html);
-  const emotionStyleTags = emotionStyles.styles.map((style) => (
-    <style
-      data-emotion={`${style.key} ${style.ids.join(" ")}`}
-      key={style.key}
-      dangerouslySetInnerHTML={{ __html: style.css }}
-    />
-  ));
+  const styles = extractCritical(initialProps.html);
 
   return {
     ...initialProps,
     styles: [
       ...React.Children.toArray(initialProps.styles),
-      ...emotionStyleTags,
+      sheets.getStyleElement(),
+      <style
+        key="emotion-style-tag"
+        data-emotion={`css ${styles.ids.join(" ")}`}
+        dangerouslySetInnerHTML={{ __html: styles.css }}
+      />,
     ],
   };
 };

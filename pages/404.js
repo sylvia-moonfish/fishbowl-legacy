@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
-import * as React from "react";
 
-export default function NotFound(props) {
+import React from "react";
+
+const NotFound = (props) => {
   const router = useRouter();
 
   React.useEffect(() => {
@@ -9,4 +10,6 @@ export default function NotFound(props) {
   }, []);
 
   return <div />;
-}
+};
+
+export default NotFound;

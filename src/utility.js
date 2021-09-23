@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 
 import Head from "next/head";
 
@@ -30,7 +30,7 @@ export function generatePreviewImage(url) {
 
 export function generateFooter() {
   return (
-    <Grid container justifyContent="center">
+    <Grid container justify="center">
       <Typography
         align="center"
         paragraph

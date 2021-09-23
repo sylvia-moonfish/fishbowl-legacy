@@ -1,62 +1,69 @@
-import {
-  Twitter as TwitterIcon,
-  YouTube as YoutubeIcon,
-} from "@mui/icons-material";
-import Drawer from "@mui/material/Drawer";
-import Grid from "@mui/material/Grid";
-import IconButton from "@mui/material/IconButton";
-import { styled } from "@mui/material/styles";
-import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
+import Drawer from "@material-ui/core/Drawer";
+import Grid from "@material-ui/core/Grid";
+import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import { makeStyles } from "@material-ui/core/styles";
+import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@material-ui/core/Typography";
 
+import TwitterIcon from "@material-ui/icons/Twitter";
+
+import React from "react";
 import { useRouter } from "next/router";
-import * as React from "react";
 
 import SiteInfo from "/data/site-info";
 import DiscordIcon from "/src/components/icons/discord-icon";
 import TwitchIcon from "/src/components/icons/twitch-icon";
+import YoutubeIcon from "/src/components/icons/youtube-icon";
 import DrawerList from "/src/components/layout/drawer-list";
 
-export default function DrawerImpl(props) {
-  const router = useRouter();
-
-  const DivComponent = styled("div")({
+const useStyles = makeStyles((theme) => ({
+  caption: {
+    color: "rgba(255, 255, 255, 0.7)",
+  },
+  direction: {
+    flexDirection: "column",
+  },
+  drawer: {
+    [theme.breakpoints.up("lg")]: {
+      width: 250,
+      flexShrink: 0,
+    },
+  },
+  drawerPaper: {
+    width: 250,
+  },
+  grow: {
     flexGrow: 1,
-  });
-
-  const AnchorComponent = styled("a")({
+  },
+  link: {
     color: "inherit",
     textDecoration: "none",
-  });
-
-  const NavComponent = styled("nav")({
-    width: {
-      lg: 250,
-    },
-    flexShrink: {
-      lg: 0,
-    },
-  });
-
-  const DivToolbar = styled("div")({
+  },
+  toolbar: {
     minHeight: 45,
-  });
+  },
+}));
+
+const DrawerImpl = (props) => {
+  const classes = useStyles();
+  const router = useRouter();
 
   const drawer = (
-    <DivComponent>
+    <div className={classes.grow}>
       <DrawerList
+        className={classes.grow}
+        currentMenu={props.currentMenu}
         setMobileOpen={props.setMobileOpen}
-        sx={{
-          flexGrow: 1,
-        }}
       />
-    </DivComponent>
+    </div>
   );
 
   const bottomLink = (
     <React.Fragment>
-      <Grid container justifyContent="center">
-        <AnchorComponent
+      <Grid container justify="center">
+        <a
+          className={classes.link}
           href={SiteInfo.twitterLink}
           rel="noopener noreferrer"
           target="_blank"
@@ -64,7 +71,7 @@ export default function DrawerImpl(props) {
           <IconButton>
             <TwitterIcon />
           </IconButton>
-        </AnchorComponent>
+        </a>
         <Tooltip arrow placement="top" title={SiteInfo.discordName}>
           <IconButton
             onClick={() => {
@@ -74,7 +81,8 @@ export default function DrawerImpl(props) {
             <DiscordIcon />
           </IconButton>
         </Tooltip>
-        <AnchorComponent
+        <a
+          className={classes.link}
           href={SiteInfo.twitchLink}
           rel="noopener noreferrer"
           target="_blank"
@@ -82,8 +90,10 @@ export default function DrawerImpl(props) {
           <IconButton>
             <TwitchIcon />
           </IconButton>
-        </AnchorComponent>
-        <AnchorComponent
+        </a>
+
+        <a
+          className={classes.link}
           href={SiteInfo.youtubeLink}
           rel="noopener noreferrer"
           target="_blank"
@@ -91,15 +101,13 @@ export default function DrawerImpl(props) {
           <IconButton>
             <YoutubeIcon />
           </IconButton>
-        </AnchorComponent>
+        </a>
       </Grid>
-      <Grid container justifyContent="center">
+      <Grid container justify="center">
         <Typography
           align="center"
+          className={classes.caption}
           paragraph
-          sx={{
-            color: "rgba(255, 255, 255, 0.7)",
-          }}
           variant="caption"
         >
           {SiteInfo.siteTitle} ⓒ {SiteInfo.copyrightYear} {SiteInfo.author}
@@ -111,47 +119,40 @@ export default function DrawerImpl(props) {
   );
 
   return (
-    <NavComponent>
-      <Drawer
-        ModalProps={{
-          keepMounted: true,
-        }}
-        onClose={props.toggleMobileOpen}
-        open={props.isMobileOpen}
-        sx={{
-          display: {
-            lg: "none",
-          },
-          flexDirection: "column",
-          width: 250,
-          "& .MuiDrawer-paper": {
-            width: 250,
-          },
-        }}
-        variant="temporary"
-      >
-        {drawer}
-        {bottomLink}
-      </Drawer>
-      <Drawer
-        open
-        sx={{
-          display: {
-            xs: "none",
-            lg: "block",
-          },
-          flexDirection: "column",
-          width: 250,
-          "& .MuiDrawer-paper": {
-            width: 250,
-          },
-        }}
-        variant="permanent"
-      >
-        <DivToolbar />
-        {drawer}
-        {bottomLink}
-      </Drawer>
-    </NavComponent>
+    <nav className={classes.drawer}>
+      <Hidden lgUp implementation="css">
+        <Drawer
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+          className={classes.direction}
+          ModalProps={{
+            keepMounted: true,
+          }}
+          onClose={props.toggleMobileOpen}
+          open={props.isMobileOpen}
+          variant="temporary"
+        >
+          {drawer}
+          {bottomLink}
+        </Drawer>
+      </Hidden>
+      <Hidden mdDown implementation="css">
+        <Drawer
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+          className={classes.direction}
+          open
+          variant="permanent"
+        >
+          <div className={classes.toolbar} />
+          {drawer}
+          {bottomLink}
+        </Drawer>
+      </Hidden>
+    </nav>
   );
-}
+};
+
+export default DrawerImpl;

@@ -1,29 +1,32 @@
-import { Close as CloseIcon } from "@mui/icons-material";
-import AppBar from "@mui/material/AppBar";
-import Avatar from "@mui/material/Avatar";
-import Breadcrumbs from "@mui/material/Breadcrumbs";
-import Chip from "@mui/material/Chip";
-import Container from "@mui/material/Container";
-import Dialog from "@mui/material/Dialog";
-import DialogContent from "@mui/material/DialogContent";
-import Grid from "@mui/material/Grid";
-import Grow from "@mui/material/Grow";
-import IconButton from "@mui/material/IconButton";
-import LinearProgress from "@mui/material/LinearProgress";
-import Link from "@mui/material/Link";
-import { styled } from "@mui/material/styles";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Toolbar from "@mui/material/Toolbar";
-import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
+import AppBar from "@material-ui/core/AppBar";
+import Avatar from "@material-ui/core/Avatar";
+import Breadcrumbs from "@material-ui/core/Breadcrumbs";
+import Chip from "@material-ui/core/Chip";
+import { blue } from "@material-ui/core/colors";
+import Container from "@material-ui/core/Container";
+import Dialog from "@material-ui/core/Dialog";
+import DialogContent from "@material-ui/core/DialogContent";
+import Grid from "@material-ui/core/Grid";
+import Grow from "@material-ui/core/Grow";
+import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import LinearProgress from "@material-ui/core/LinearProgress";
+import Link from "@material-ui/core/Link";
+import { makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Toolbar from "@material-ui/core/Toolbar";
+import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@material-ui/core/Typography";
+
+import CloseIcon from "@material-ui/icons/Close";
 
 import { useRouter } from "next/router";
-import * as React from "react";
+import React from "react";
 
 import SiteInfo from "/data/site-info";
 import {
@@ -31,6 +34,27 @@ import {
   generateHead,
   generatePreviewImage,
 } from "/src/utility";
+
+const useStyles = makeStyles((theme) => ({
+  banner: {
+    maxWidth: 128,
+    width: "100%",
+  },
+  grow: {
+    flexGrow: 1,
+  },
+  link: {
+    color: "inherit",
+    cursor: "pointer",
+    textDecoration: "none",
+  },
+  textLink: {
+    color: blue[500],
+  },
+  noMargin: {
+    margin: 0,
+  },
+}));
 
 export async function getStaticPaths() {
   return {
@@ -88,14 +112,11 @@ export async function getStaticProps(context) {
   };
 }
 
-const transition = React.forwardRef(function Transition(props, ref) {
+const transition = React.forwardRef((props, ref) => {
   return <Grow {...props} ref={ref} />;
 });
 
-export default function BisGuideJob(props) {
-  const [selectedTableIndex, setSelectedTableIndex] = React.useState(-1);
-  const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
-
+const BisGuideJob = (props) => {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -104,24 +125,10 @@ export default function BisGuideJob(props) {
 
   const { version, job } = router.query;
 
-  const ImgComponent = styled("img")({
-    maxWidth: 128,
-    width: "100%",
-  });
+  const [selectedTableIndex, setSelectedTableIndex] = React.useState(-1);
+  const [selectedGearSetIndex, setSelectedGearSetIndex] = React.useState(-1);
 
-  const AnchorComponent = styled("a")({
-    color: "inherit",
-    cursor: "pointer",
-    textDecoration: "none",
-  });
-
-  const DivComponent = styled("div")({
-    flexGrow: 1,
-  });
-
-  const ParagraphComponent = styled("p")({
-    margin: 0,
-  });
+  const classes = useStyles();
 
   return (
     <React.Fragment>
@@ -134,14 +141,10 @@ export default function BisGuideJob(props) {
         <Grid item>
           <Breadcrumbs>
             <Link
+              className={classes.link}
               color="inherit"
               onClick={() => {
                 router.push(`/bis-guide/${version}`);
-              }}
-              sx={{
-                color: "inherit",
-                cursor: "pointer",
-                textDecoration: "none",
               }}
             >
               {props.parentPageData.pageTitle}
@@ -159,7 +162,7 @@ export default function BisGuideJob(props) {
                   alignItems="center"
                   container
                   direction="row"
-                  justifyContent="center"
+                  justify="center"
                 >
                   <Grid item>
                     <Typography variant="h5">
@@ -173,10 +176,13 @@ export default function BisGuideJob(props) {
                   alignItems="center"
                   container
                   direction="row"
-                  justifyContent="center"
+                  justify="center"
                 >
                   <Grid item>
-                    <ImgComponent src={props.pageData.banner} />
+                    <img
+                      className={classes.banner}
+                      src={props.pageData.banner}
+                    />
                   </Grid>
                 </Grid>
               </Grid>
@@ -188,7 +194,9 @@ export default function BisGuideJob(props) {
                   <li>
                     <Typography variant="body1">
                       문의사항 및 오탈자 제보:{" "}
-                      <AnchorComponent href="/contact">링크</AnchorComponent>
+                      <a className={classes.textLink} href="/contact">
+                        링크
+                      </a>
                     </Typography>
                   </li>
                 </ul>
@@ -207,14 +215,9 @@ export default function BisGuideJob(props) {
                 <Table>
                   <TableHead>
                     <TableRow>
-                      <TableCell
-                        sx={{
-                          display: {
-                            xs: "none",
-                            md: "table-cell",
-                          },
-                        }}
-                      />
+                      <Hidden mdDown>
+                        <TableCell />
+                      </Hidden>
                       {table.columnDefinitions.map(
                         (columnDefinition, columnDefinitionIndex) => {
                           return (
@@ -231,27 +234,16 @@ export default function BisGuideJob(props) {
                       return (
                         <React.Fragment key={gearSetIndex}>
                           <TableRow
+                            className={classes.link}
                             hover
                             onClick={() => {
                               setSelectedTableIndex(tableIndex);
                               setSelectedGearSetIndex(gearSetIndex);
                             }}
-                            sx={{
-                              color: "inherit",
-                              cursor: "pointer",
-                              textDecoration: "none",
-                            }}
                           >
-                            <TableCell
-                              sx={{
-                                display: {
-                                  xs: "none",
-                                  md: "table-cell",
-                                },
-                              }}
-                            >
-                              {gearSet.title}
-                            </TableCell>
+                            <Hidden mdDown>
+                              <TableCell>{gearSet.title}</TableCell>
+                            </Hidden>
                             {table.columnDefinitions.map(
                               (columnDefinition, columnDefinitionIndex) => {
                                 return (
@@ -279,11 +271,11 @@ export default function BisGuideJob(props) {
                           >
                             <AppBar position="static">
                               <Toolbar variant="dense">
-                                <DivComponent>
+                                <div className={classes.grow}>
                                   <Typography variant="body1">
                                     {gearSet.title}
                                   </Typography>
-                                </DivComponent>
+                                </div>
                                 <IconButton
                                   onClick={() => {
                                     setSelectedTableIndex(-1);
@@ -370,7 +362,7 @@ export default function BisGuideJob(props) {
                                         </TableRow>
                                       </TableHead>
                                       <TableBody>
-                                        <TableRow hover>
+                                        <TableRow>
                                           <TableCell>음식</TableCell>
                                           <TableCell>
                                             <Avatar
@@ -390,7 +382,6 @@ export default function BisGuideJob(props) {
                                           (gear, gearIndex) => {
                                             return (
                                               <TableRow
-                                                hover
                                                 key={gearIndex}
                                                 selected={
                                                   gear.from === "영웅 레이드" ||
@@ -484,11 +475,14 @@ export default function BisGuideJob(props) {
                                                     .split("\n")
                                                     .map((str, strIndex) => {
                                                       return (
-                                                        <ParagraphComponent
+                                                        <p
+                                                          className={
+                                                            classes.noMargin
+                                                          }
                                                           key={strIndex}
                                                         >
                                                           {str}
-                                                        </ParagraphComponent>
+                                                        </p>
                                                       );
                                                     })}
                                                 </TableCell>
@@ -516,4 +510,6 @@ export default function BisGuideJob(props) {
       </Grid>
     </React.Fragment>
   );
-}
+};
+
+export default BisGuideJob;

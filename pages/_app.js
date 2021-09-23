@@ -1,47 +1,68 @@
+import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/react";
-import Container from "@mui/material/Container";
-import CssBaseline from "@mui/material/CssBaseline";
-import { styled, ThemeProvider } from "@mui/material/styles";
-import Toolbar from "@mui/material/Toolbar";
+
+import Container from "@material-ui/core/Container";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import { makeStyles } from "@material-ui/core/styles";
+import Toolbar from "@material-ui/core/Toolbar";
+import { ThemeProvider } from "@material-ui/styles";
 
 import Head from "next/head";
 import Router from "next/router";
-import PropTypes from "prop-types";
-import * as React from "react";
+import React from "react";
 
 import SiteInfo from "/data/site-info";
 import AppBarImpl from "/src/components/layout/app-bar-impl";
 import DrawerImpl from "/src/components/layout/drawer-impl";
-import createEmotionCache from "/src/createEmotionCache";
 import theme from "/src/theme";
 import "/styles/fonts.css";
 
 Router.events.on("routeChangeComplete", (url) => {
-  if (typeof window !== "undefined" && typeof window.gtag !== "undefined") {
+  if (typeof window !== "undefined") {
     window.gtag("config", SiteInfo.gtmId, {
       page_location: url,
     });
   }
 });
 
-const clientSideEmotionCache = createEmotionCache();
+export const cache = createCache({ key: "css", prepend: true });
 
-export default function FishbowlApp(props) {
-  const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
+const useStyles = makeStyles((theme) => ({
+  content: {
+    flexGrow: 1,
+    padding: theme.spacing(3),
+    width: "100%",
+  },
+  root: {
+    display: "flex",
+  },
+}));
+
+const FishbowlApp = ({ Component, pageProps }) => {
+  React.useEffect(() => {
+    const jssStyles = document.querySelector("#jss-server-side");
+
+    if (jssStyles) {
+      jssStyles.parentElement.removeChild(jssStyles);
+    }
+  }, []);
 
   const [isMobileOpen, setMobileOpen] = React.useState(false);
   const toggleMobileOpen = () => {
     setMobileOpen(!isMobileOpen);
   };
+  const [currentMenu, setCurrentMenu] = React.useState("");
 
-  const MainComponent = styled("main")({
-    display: "flex",
-  });
+  const classes = useStyles();
 
   return (
-    <CacheProvider value={emotionCache}>
+    <CacheProvider value={cache}>
       <Head>
-        <meta content="initial-scale=1, width=device-width" name="viewport" />
+        <meta
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+          name="viewport"
+        />
+        <meta content="#4a148c" name="theme-color" />
         <link href="/avatar.jpg" rel="icon" type="image/jpg" />
         <meta content="website" property="og:type" />
         <meta content="summary" name="twitter:card" />
@@ -53,46 +74,37 @@ export default function FishbowlApp(props) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag() {
-                        dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-                    gtag('config', '${SiteInfo.gtmId}');
-                    `,
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', '${SiteInfo.gtmId}');
+          `,
           }}
         />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <MainComponent>
+        <main className={classes.root}>
           <AppBarImpl
             isMobileOpen={isMobileOpen}
             toggleMobileOpen={toggleMobileOpen}
           />
           <DrawerImpl
+            currentMenu={currentMenu}
             isMobileOpen={isMobileOpen}
             setMobileOpen={setMobileOpen}
             toggleMobileOpen={toggleMobileOpen}
           />
-          <Container
-            sx={{
-              flexGrow: 1,
-              padding: 3,
-              width: "100%",
-            }}
-          >
+          <Container className={classes.content}>
             <Toolbar />
             <Component {...pageProps} />
           </Container>
-        </MainComponent>
+        </main>
       </ThemeProvider>
     </CacheProvider>
   );
-}
-
-FishbowlApp.propTypes = {
-  Component: PropTypes.elementType.isRequired,
-  emotionCache: PropTypes.object,
-  pageProps: PropTypes.object.isRequired,
 };
+
+export default FishbowlApp;

@@ -1,0 +1,134 @@
+{
+  "================================================== Food ==================================================": {},
+  "sausageAndSauerkraut": {
+    "name": "소시지 자우어크라우트",
+    "iconSrc": "/icons/items/hq/sausage-and-sauerkraut.png",
+    "stats": {
+      "ch": {
+        "value": 10,
+        "max": 168
+      },
+      "sks": {
+        "value": 10,
+        "max": 101
+      }
+    }
+  },
+  "stuffedHighlandCabbage": {
+    "name": "다진고기 고원 양배추말이",
+    "iconSrc": "/icons/items/hq/stuffed-highland-cabbage.png",
+    "stats": {
+      "det": {
+        "value": 10,
+        "max": 168
+      },
+      "ch": {
+        "value": 10,
+        "max": 101
+      }
+    }
+  },
+  "herringPie": {
+    "name": "청어 파이",
+    "iconSrc": "/icons/items/hq/herring-pie.png",
+    "stats": {
+      "ch": {
+        "value": 10,
+        "max": 168
+      },
+      "sps": {
+        "value": 10,
+        "max": 101
+      }
+    }
+  },
+  "pickledHerring": {
+    "name": "청어 새콤절임",
+    "iconSrc": "/icons/items/hq/pickled-herring.png",
+    "stats": {
+      "sps": {
+        "value": 10,
+        "max": 168
+      },
+      "dh": {
+        "value": 10,
+        "max": 101
+      }
+    }
+  },
+
+  "================================================== Materias ==================================================": {},
+  "ch7": {
+    "name": "무략의 메가마테리쟈",
+    "shortName": "극대+20",
+    "iconSrc": "/icons/items/red-vii.png",
+    "materiaNumber": 7,
+    "stats": {
+      "ch": 20
+    }
+  },
+  "dh7": {
+    "name": "심안의 메가마테리쟈",
+    "shortName": "직격+20",
+    "iconSrc": "/icons/items/red-vii.png",
+    "materiaNumber": 7,
+    "stats": {
+      "dh": 20
+    }
+  },
+
+  "ch8": {
+    "name": "무략의 엑스마테리쟈",
+    "shortName": "극대+60",
+    "iconSrc": "/icons/items/red-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "ch": 60
+    }
+  },
+  "dh8": {
+    "name": "심안의 엑스마테리쟈",
+    "shortName": "직격+60",
+    "iconSrc": "/icons/items/red-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "dh": 60
+    }
+  },
+  "det8": {
+    "name": "야망의 엑스마테리쟈",
+    "shortName": "의지+60",
+    "iconSrc": "/icons/items/red-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "det": 60
+    }
+  },
+  "sks8": {
+    "name": "신속의 엑스마테리쟈",
+    "shortName": "기시+60",
+    "iconSrc": "/icons/items/purple-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "sks": 60
+    }
+  },
+  "sps8": {
+    "name": "시전의 엑스마테리쟈",
+    "shortName": "마시+60",
+    "iconSrc": "/icons/items/purple-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "sps": 60
+    }
+  },
+  "pie8": {
+    "name": "신앙의 엑스마테리쟈",
+    "shortName": "신앙+60",
+    "iconSrc": "/icons/items/yellow-viii.png",
+    "materiaNumber": 8,
+    "stats": {
+      "pie": 60
+    }
+  }
+}
