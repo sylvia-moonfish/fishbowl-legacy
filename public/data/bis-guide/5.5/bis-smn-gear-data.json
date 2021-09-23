@@ -1,0 +1,4570 @@
+[
+  {
+    "title": "5.5 BiS",
+    "description": "패치 5.4 ~ 5.5 BiS 리스트입니다.",
+    "columnDefinitions": [
+      {
+        "printedName": "평균 DPS",
+        "propertyName": "dps",
+        "append": ""
+      },
+      {
+        "printedName": "글로벌 쿨다운",
+        "propertyName": "gcd",
+        "append": " 초"
+      },
+      {
+        "printedName": "음식",
+        "propertyName": "mealName",
+        "append": ""
+      },
+      {
+        "printedName": "극대 확률",
+        "propertyName": "ch",
+        "append": " %"
+      },
+      {
+        "printedName": "직격 확률",
+        "propertyName": "dh",
+        "append": " %"
+      }
+    ],
+    "statDefinitions": [
+      {
+        "printedName": "지능",
+        "propertyName": "int"
+      },
+      {
+        "printedName": "극대",
+        "propertyName": "ch"
+      },
+      {
+        "printedName": "직격",
+        "propertyName": "dh"
+      },
+      {
+        "printedName": "의지",
+        "propertyName": "det"
+      },
+      {
+        "printedName": "마시",
+        "propertyName": "sps"
+      }
+    ],
+    "gearSets": [
+      {
+        "title": "글쿨 2.48초 장비 세트.",
+        "description": "글로벌 쿨다운을 2.48초로 맞춘 장비 세트.",
+        "attribute": {
+          "wd": 180,
+          "str": 305,
+          "dex": 342,
+          "int": 5558,
+          "mnd": 275,
+          "ch": 4077,
+          "dh": 3010,
+          "det": 1914,
+          "sks": 380,
+          "sps": 606,
+          "ten": 380,
+          "pie": 340
+        },
+        "dps": 23731.76,
+        "hps": 0.0,
+        "mpRegen": 200,
+        "gcd": 2.48,
+        "glGcd": 1.98,
+        "hutonGcd": 2.1,
+        "shifuGcd": 2.15,
+        "rotation": 0,
+        "mealName": "훈제 치킨",
+        "meal": {
+          "nameEn": "Smoked Chicken",
+          "nameKo": "훈제 치킨",
+          "iconSrc": "/icons/items/hq/smoked-chicken.png",
+          "mealAttribute": {
+            "ch": {
+              "value": 10,
+              "max": 108
+            },
+            "dh": null,
+            "det": {
+              "value": 10,
+              "max": 179
+            },
+            "sks": null,
+            "sps": null,
+            "ten": null,
+            "pie": null
+          }
+        },
+        "ch": 27.4,
+        "dh": 43.8,
+        "ten": 0.0,
+        "gears": [
+          {
+            "nameEn": "Edenmorn Index",
+            "nameKo": "에덴의 아침 금서",
+            "iconSrc": "/icons/items/edenmorn-index.png",
+            "type": "무기",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 180,
+              "str": 0,
+              "dex": 0,
+              "int": 725,
+              "mnd": 0,
+              "ch": 531,
+              "dh": 372,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Hat of Casting",
+            "nameKo": "에덴의 아침 마술사 모자",
+            "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
+            "type": "머리",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 0,
+              "det": 211,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Gown of Casting",
+            "nameKo": "에덴의 아침 마술사 덧옷",
+            "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
+            "type": "몸통",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 342,
+              "dh": 489,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Dress Sleeves of Casting",
+            "nameKo": "에덴의 아침 마술사 예식 토시",
+            "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
+            "type": "손",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 211,
+              "dh": 0,
+              "det": 301,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Belt of Casting",
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
+            "type": "허리",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Chausses of Casting",
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
+            "type": "다리",
+            "from": "석판 보강",
+            "required": "석판 825개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 489,
+              "dh": 342,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Shoes of Casting",
+            "nameKo": "보강된 지하매복자 마술사 신발",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
+            "type": "발",
+            "from": "석판 보강",
+            "required": "석판 495개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 211,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Earrings of Casting",
+            "nameKo": "에덴의 아침 마술사 귀걸이",
+            "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
+            "type": "귀걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Necklace of Casting",
+            "nameKo": "에덴의 아침 마술사 목장식",
+            "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
+            "type": "목걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Wristlet of Casting",
+            "nameKo": "에덴의 아침 마술사 손목장식",
+            "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
+            "type": "팔찌",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Ring of Casting",
+            "nameKo": "에덴의 아침 마술사 반지",
+            "iconSrc": "/icons/items/edenmorn-ring-of-casting.png",
+            "type": "반지",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 226,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Ring of Casting",
+            "nameKo": "보강된 지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "글쿨 2.5초 석판 반지 세트.",
+        "description": "글로벌 쿨다운을 2.5초로 맞춘 장비 세트. 석판 반지로 인해 아이템 레벨과 체력이 살짝 낮은 것에 유의.",
+        "attribute": {
+          "wd": 180,
+          "str": 305,
+          "dex": 342,
+          "int": 5542,
+          "mnd": 275,
+          "ch": 4178,
+          "dh": 2827,
+          "det": 2219,
+          "sks": 380,
+          "sps": 380,
+          "ten": 380,
+          "pie": 340
+        },
+        "dps": 23636.04,
+        "hps": 0.0,
+        "mpRegen": 200,
+        "gcd": 2.5,
+        "glGcd": 2.0,
+        "hutonGcd": 2.12,
+        "shifuGcd": 2.17,
+        "rotation": 0,
+        "mealName": "훈제 치킨",
+        "meal": {
+          "nameEn": "Smoked Chicken",
+          "nameKo": "훈제 치킨",
+          "iconSrc": "/icons/items/hq/smoked-chicken.png",
+          "mealAttribute": {
+            "ch": {
+              "value": 10,
+              "max": 108
+            },
+            "dh": null,
+            "det": {
+              "value": 10,
+              "max": 179
+            },
+            "sks": null,
+            "sps": null,
+            "ten": null,
+            "pie": null
+          }
+        },
+        "ch": 28.0,
+        "dh": 40.7,
+        "ten": 0.0,
+        "gears": [
+          {
+            "nameEn": "Edenmorn Index",
+            "nameKo": "에덴의 아침 금서",
+            "iconSrc": "/icons/items/edenmorn-index.png",
+            "type": "무기",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 180,
+              "str": 0,
+              "dex": 0,
+              "int": 725,
+              "mnd": 0,
+              "ch": 531,
+              "dh": 372,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Hat of Casting",
+            "nameKo": "에덴의 아침 마술사 모자",
+            "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
+            "type": "머리",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 0,
+              "det": 211,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Gown of Casting",
+            "nameKo": "에덴의 아침 마술사 덧옷",
+            "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
+            "type": "몸통",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 342,
+              "dh": 489,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Dress Sleeves of Casting",
+            "nameKo": "에덴의 아침 마술사 예식 토시",
+            "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
+            "type": "손",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 211,
+              "dh": 0,
+              "det": 301,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Belt of Casting",
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
+            "type": "허리",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Chausses of Casting",
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
+            "type": "다리",
+            "from": "석판 보강",
+            "required": "석판 825개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 489,
+              "dh": 342,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Shoes of Casting",
+            "nameKo": "보강된 지하매복자 마술사 신발",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
+            "type": "발",
+            "from": "석판 보강",
+            "required": "석판 495개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 211,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Earrings of Casting",
+            "nameKo": "에덴의 아침 마술사 귀걸이",
+            "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
+            "type": "귀걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Necklace of Casting",
+            "nameKo": "에덴의 아침 마술사 목장식",
+            "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
+            "type": "목걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Wristlet of Casting",
+            "nameKo": "에덴의 아침 마술사 손목장식",
+            "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
+            "type": "팔찌",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Ring of Casting",
+            "nameKo": "보강된 지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Cryptlurker's Ring of Casting",
+            "nameKo": "지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/cryptlurkers-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판",
+            "required": "석판 375개",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 294,
+              "mnd": 0,
+              "ch": 221,
+              "dh": 155,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "5.55 레지스탕스 BiS",
+    "description": "패치 5.55 레지스탕스 웨폰을 채용한 BiS 리스트입니다.",
+    "columnDefinitions": [
+      {
+        "printedName": "평균 DPS",
+        "propertyName": "dps",
+        "append": ""
+      },
+      {
+        "printedName": "글로벌 쿨다운",
+        "propertyName": "gcd",
+        "append": " 초"
+      },
+      {
+        "printedName": "음식",
+        "propertyName": "mealName",
+        "append": ""
+      },
+      {
+        "printedName": "극대 확률",
+        "propertyName": "ch",
+        "append": " %"
+      },
+      {
+        "printedName": "직격 확률",
+        "propertyName": "dh",
+        "append": " %"
+      }
+    ],
+    "statDefinitions": [
+      {
+        "printedName": "지능",
+        "propertyName": "int"
+      },
+      {
+        "printedName": "극대",
+        "propertyName": "ch"
+      },
+      {
+        "printedName": "직격",
+        "propertyName": "dh"
+      },
+      {
+        "printedName": "의지",
+        "propertyName": "det"
+      },
+      {
+        "printedName": "마시",
+        "propertyName": "sps"
+      }
+    ],
+    "gearSets": [
+      {
+        "title": "글쿨 2.47초 장비 세트.",
+        "description": "글로벌 쿨다운을 2.47초로 맞춘 장비 세트.",
+        "attribute": {
+          "wd": 180,
+          "str": 305,
+          "dex": 342,
+          "int": 5558,
+          "mnd": 275,
+          "ch": 4077,
+          "dh": 3044,
+          "det": 2041,
+          "sks": 380,
+          "sps": 609,
+          "ten": 380,
+          "pie": 340
+        },
+        "dps": 23919.04,
+        "hps": 0.0,
+        "mpRegen": 200,
+        "gcd": 2.47,
+        "glGcd": 1.98,
+        "hutonGcd": 2.1,
+        "shifuGcd": 2.15,
+        "rotation": 0,
+        "mealName": "훈제 치킨",
+        "meal": {
+          "nameEn": "Smoked Chicken",
+          "nameKo": "훈제 치킨",
+          "iconSrc": "/icons/items/hq/smoked-chicken.png",
+          "mealAttribute": {
+            "ch": {
+              "value": 10,
+              "max": 108
+            },
+            "dh": null,
+            "det": {
+              "value": 10,
+              "max": 179
+            },
+            "sks": null,
+            "sps": null,
+            "ten": null,
+            "pie": null
+          }
+        },
+        "ch": 27.4,
+        "dh": 44.4,
+        "ten": 0.0,
+        "gears": [
+          {
+            "nameEn": "Blade's Acumen",
+            "nameKo": null,
+            "iconSrc": "/icons/items/blades-acumen.png",
+            "type": "무기",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 0,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 180,
+              "str": 0,
+              "dex": 0,
+              "int": 725,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 0,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+531",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 531,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+526",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 526,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+122",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 122,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "마시+3",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 3,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Hat of Casting",
+            "nameKo": "에덴의 아침 마술사 모자",
+            "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
+            "type": "머리",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 0,
+              "det": 211,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Gown of Casting",
+            "nameKo": "에덴의 아침 마술사 덧옷",
+            "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
+            "type": "몸통",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 342,
+              "dh": 489,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Dress Sleeves of Casting",
+            "nameKo": "에덴의 아침 마술사 예식 토시",
+            "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
+            "type": "손",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 211,
+              "dh": 0,
+              "det": 301,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Belt of Casting",
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
+            "type": "허리",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Chausses of Casting",
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
+            "type": "다리",
+            "from": "석판 보강",
+            "required": "석판 825개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 489,
+              "dh": 342,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Shoes of Casting",
+            "nameKo": "보강된 지하매복자 마술사 신발",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
+            "type": "발",
+            "from": "석판 보강",
+            "required": "석판 495개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 211,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Earrings of Casting",
+            "nameKo": "에덴의 아침 마술사 귀걸이",
+            "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
+            "type": "귀걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Necklace of Casting",
+            "nameKo": "에덴의 아침 마술사 목장식",
+            "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
+            "type": "목걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Wristlet of Casting",
+            "nameKo": "에덴의 아침 마술사 손목장식",
+            "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
+            "type": "팔찌",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Ring of Casting",
+            "nameKo": "에덴의 아침 마술사 반지",
+            "iconSrc": "/icons/items/edenmorn-ring-of-casting.png",
+            "type": "반지",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 226,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Ring of Casting",
+            "nameKo": "보강된 지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "글쿨 2.5초 석판 반지 세트.",
+        "description": "글로벌 쿨다운을 2.5초로 맞춘 장비 세트.",
+        "attribute": {
+          "wd": 180,
+          "str": 305,
+          "dex": 342,
+          "int": 5542,
+          "mnd": 275,
+          "ch": 4175,
+          "dh": 3014,
+          "det": 2194,
+          "sks": 380,
+          "sps": 380,
+          "ten": 380,
+          "pie": 340
+        },
+        "dps": 23845.08,
+        "hps": 0.0,
+        "mpRegen": 200,
+        "gcd": 2.5,
+        "glGcd": 2.0,
+        "hutonGcd": 2.12,
+        "shifuGcd": 2.17,
+        "rotation": 0,
+        "mealName": "훈제 치킨",
+        "meal": {
+          "nameEn": "Smoked Chicken",
+          "nameKo": "훈제 치킨",
+          "iconSrc": "/icons/items/hq/smoked-chicken.png",
+          "mealAttribute": {
+            "ch": {
+              "value": 10,
+              "max": 108
+            },
+            "dh": null,
+            "det": {
+              "value": 10,
+              "max": 179
+            },
+            "sks": null,
+            "sps": null,
+            "ten": null,
+            "pie": null
+          }
+        },
+        "ch": 28.0,
+        "dh": 43.9,
+        "ten": 0.0,
+        "gears": [
+          {
+            "nameEn": "Blade's Acumen",
+            "nameKo": null,
+            "iconSrc": "/icons/items/blades-acumen.png",
+            "type": "무기",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 0,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 180,
+              "str": 0,
+              "dex": 0,
+              "int": 725,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 0,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+528",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 528,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+499",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 499,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+155",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 155,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Hat of Casting",
+            "nameKo": "에덴의 아침 마술사 모자",
+            "iconSrc": "/icons/items/edenmorn-hat-of-casting.png",
+            "type": "머리",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 0,
+              "det": 211,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Gown of Casting",
+            "nameKo": "에덴의 아침 마술사 덧옷",
+            "iconSrc": "/icons/items/edenmorn-gown-of-casting.png",
+            "type": "몸통",
+            "from": "영웅 레이드",
+            "required": "4층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 342,
+              "dh": 489,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Dress Sleeves of Casting",
+            "nameKo": "에덴의 아침 마술사 예식 토시",
+            "iconSrc": "/icons/items/edenmorn-dress-sleeves-of-casting.png",
+            "type": "손",
+            "from": "영웅 레이드",
+            "required": "2층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 211,
+              "dh": 0,
+              "det": 301,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Belt of Casting",
+            "nameKo": "보강된 지하매복자 마술사 허리띠",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-belt-of-casting.png",
+            "type": "허리",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Chausses of Casting",
+            "nameKo": "보강된 지하매복자 마술사 조임바지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-chausses-of-casting.png",
+            "type": "다리",
+            "from": "석판 보강",
+            "required": "석판 825개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 671,
+              "mnd": 0,
+              "ch": 489,
+              "dh": 342,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Shoes of Casting",
+            "nameKo": "보강된 지하매복자 마술사 신발",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-shoes-of-casting.png",
+            "type": "발",
+            "from": "석판 보강",
+            "required": "석판 495개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 413,
+              "mnd": 0,
+              "ch": 301,
+              "dh": 211,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Earrings of Casting",
+            "nameKo": "에덴의 아침 마술사 귀걸이",
+            "iconSrc": "/icons/items/edenmorn-earrings-of-casting.png",
+            "type": "귀걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Necklace of Casting",
+            "nameKo": "에덴의 아침 마술사 목장식",
+            "iconSrc": "/icons/items/edenmorn-necklace-of-casting.png",
+            "type": "목걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 158,
+              "dh": 0,
+              "det": 226,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edenmorn Wristlet of Casting",
+            "nameKo": "에덴의 아침 마술사 손목장식",
+            "iconSrc": "/icons/items/edenmorn-wristlet-of-casting.png",
+            "type": "팔찌",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 0,
+              "det": 158,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Cryptlurker's Ring of Casting",
+            "nameKo": "보강된 지하매복자 마술사 반지",
+            "iconSrc": "/icons/items/augmented-cryptlurkers-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 310,
+              "mnd": 0,
+              "ch": 226,
+              "dh": 158,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Exarchic Ring of Casting",
+            "nameKo": "보강된 수정공 마술사 반지",
+            "iconSrc": "/icons/items/hq/augmented-exarchic-ring-of-casting.png",
+            "type": "반지",
+            "from": "제작 보강",
+            "required": "제작 보강",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 294,
+              "mnd": 0,
+              "ch": 221,
+              "dh": 155,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "절 난이도 BiS",
+    "description": "절 난이도 전용 BiS 리스트입니다. 레지스탕스 웨폰 패치 이전에는 5.5 BiS 무기나 해당 절 레이드 보상 무기를 사용하시면 됩니다.",
+    "columnDefinitions": [
+      {
+        "printedName": "평균 DPS",
+        "propertyName": "dps",
+        "append": ""
+      },
+      {
+        "printedName": "글로벌 쿨다운",
+        "propertyName": "gcd",
+        "append": " 초"
+      },
+      {
+        "printedName": "음식",
+        "propertyName": "mealName",
+        "append": ""
+      },
+      {
+        "printedName": "극대 확률",
+        "propertyName": "ch",
+        "append": " %"
+      },
+      {
+        "printedName": "직격 확률",
+        "propertyName": "dh",
+        "append": " %"
+      }
+    ],
+    "statDefinitions": [
+      {
+        "printedName": "지능",
+        "propertyName": "int"
+      },
+      {
+        "printedName": "극대",
+        "propertyName": "ch"
+      },
+      {
+        "printedName": "직격",
+        "propertyName": "dh"
+      },
+      {
+        "printedName": "의지",
+        "propertyName": "det"
+      },
+      {
+        "printedName": "마시",
+        "propertyName": "sps"
+      }
+    ],
+    "gearSets": [
+      {
+        "title": "절 알렉산더 2.48초 세트.",
+        "description": "절 알렉산더 레이드용 장비 세트.",
+        "attribute": {
+          "wd": 164,
+          "str": 0,
+          "dex": 0,
+          "int": 4274,
+          "mnd": 0,
+          "ch": 3428,
+          "dh": 2863,
+          "det": 2231,
+          "sks": 0,
+          "sps": 519,
+          "ten": 0,
+          "pie": 0
+        },
+        "dps": 16280.0,
+        "hps": 0.0,
+        "mpRegen": 184,
+        "gcd": 2.48,
+        "glGcd": 1.98,
+        "hutonGcd": 2.11,
+        "shifuGcd": 2.16,
+        "rotation": 0,
+        "mealName": "훈제 치킨",
+        "meal": {
+          "nameEn": "Smoked Chicken",
+          "nameKo": "훈제 치킨",
+          "iconSrc": "/icons/items/hq/smoked-chicken.png",
+          "mealAttribute": {
+            "ch": {
+              "value": 10,
+              "max": 108
+            },
+            "dh": null,
+            "det": {
+              "value": 10,
+              "max": 179
+            },
+            "sks": null,
+            "sps": null,
+            "ten": null,
+            "pie": null
+          }
+        },
+        "ch": 23.4,
+        "dh": 41.3,
+        "ten": -1.2,
+        "gears": [
+          {
+            "nameEn": "Augmented Law's Order Index",
+            "nameKo": "보강된 법령 마도서",
+            "iconSrc": "/icons/items/augmented-laws-order-index.png",
+            "type": "무기",
+            "from": "레지스탕스 웨폰",
+            "required": "레지스탕스 웨폰",
+            "materiaSlots": 0,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 175,
+              "str": 0,
+              "dex": 0,
+              "int": 668,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 0,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "극대+467",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 467,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "직격+467",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 467,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": null,
+                "nameKo": null,
+                "shortName": "의지+233",
+                "iconSrc": null,
+                "materiaNumber": -1,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 233,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Deepshadow Hood of Casting",
+            "nameKo": "보강된 암영 마술사 두건",
+            "iconSrc": "/icons/items/augmented-deepshadow-hood-of-casting.png",
+            "type": "머리",
+            "from": "석판 보강",
+            "required": "석판 495개\n강화섬유\n(3층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 303,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 185,
+              "det": 264,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Shadowless Robe of Casting",
+            "nameKo": "무영 마술사 로브",
+            "iconSrc": "/icons/items/shadowless-robe-of-casting.png",
+            "type": "몸통",
+            "from": "던전",
+            "required": "던전",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 505,
+              "mnd": 0,
+              "ch": 434,
+              "dh": 0,
+              "det": 304,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Shadowless Gloves of Casting",
+            "nameKo": "무영 마술사 장갑",
+            "iconSrc": "/icons/items/shadowless-gloves-of-casting.png",
+            "type": "손",
+            "from": "던전",
+            "required": "던전",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 311,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 187,
+              "det": 267,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edengrace Tassets of Casting",
+            "nameKo": "에덴의 은총 마술사 허리갑옷",
+            "iconSrc": "/icons/items/edengrace-tassets-of-casting.png",
+            "type": "허리",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 6",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 227,
+              "mnd": 0,
+              "ch": 198,
+              "dh": 0,
+              "det": 139,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edengrace Breeches of Casting",
+            "nameKo": "에덴의 은총 마술사 바지",
+            "iconSrc": "/icons/items/edengrace-breeches-of-casting.png",
+            "type": "다리",
+            "from": "영웅 레이드",
+            "required": "3층 낱장 x 8",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 492,
+              "mnd": 0,
+              "ch": 300,
+              "dh": 429,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Shadowless Boots of Casting",
+            "nameKo": "무영 마술사 장화",
+            "iconSrc": "/icons/items/shadowless-boots-of-casting.png",
+            "type": "발",
+            "from": "던전",
+            "required": "던전",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 311,
+              "mnd": 0,
+              "ch": 267,
+              "dh": 0,
+              "det": 187,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edengrace Earring of Casting",
+            "nameKo": "에덴의 은총 마술사 귀걸이",
+            "iconSrc": "/icons/items/edengrace-earring-of-casting.png",
+            "type": "귀걸이",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 227,
+              "mnd": 0,
+              "ch": 0,
+              "dh": 139,
+              "det": 198,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Aim Materia VIII",
+                "nameKo": "무략의 엑스마테리쟈",
+                "shortName": "극대+60",
+                "iconSrc": "/icons/items/savage-aim-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 60,
+                  "dh": 0,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Deepshadow Necklace of Casting",
+            "nameKo": "보강된 암영 마술사 목걸이",
+            "iconSrc": "/icons/items/augmented-deepshadow-necklace-of-casting.png",
+            "type": "목걸이",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 227,
+              "mnd": 0,
+              "ch": 198,
+              "dh": 139,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Edengrace Bracelet of Casting",
+            "nameKo": "에덴의 은총 마술사 팔찌",
+            "iconSrc": "/icons/items/edengrace-bracelet-of-casting.png",
+            "type": "팔찌",
+            "from": "영웅 레이드",
+            "required": "1층 낱장 x 4",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 227,
+              "mnd": 0,
+              "ch": 198,
+              "dh": 0,
+              "det": 0,
+              "sks": 0,
+              "sps": 139,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Augmented Deepshadow Ring of Casting",
+            "nameKo": "보강된 암영 마술사 반지",
+            "iconSrc": "/icons/items/augmented-deepshadow-ring-of-casting.png",
+            "type": "반지",
+            "from": "석판 보강",
+            "required": "석판 375개\n경화약\n(2층 낱장 x 4)",
+            "materiaSlots": 2,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 227,
+              "mnd": 0,
+              "ch": 198,
+              "dh": 139,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              },
+              {
+                "nameEn": "Savage Might Materia VIII",
+                "nameKo": "야망의 엑스마테리쟈",
+                "shortName": "의지+60",
+                "iconSrc": "/icons/items/savage-might-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 0,
+                  "det": 60,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          },
+          {
+            "nameEn": "Shadowless Ring of Casting",
+            "nameKo": "무영 마술사 반지",
+            "iconSrc": "/icons/items/shadowless-ring-of-casting.png",
+            "type": "반지",
+            "from": "던전",
+            "required": "던전",
+            "materiaSlots": 1,
+            "overmeldSlots": 0,
+            "attribute": {
+              "wd": 0,
+              "str": 0,
+              "dex": 0,
+              "int": 233,
+              "mnd": 0,
+              "ch": 200,
+              "dh": 140,
+              "det": 0,
+              "sks": 0,
+              "sps": 0,
+              "ten": 0,
+              "pie": 0
+            },
+            "materias": [
+              {
+                "nameEn": "Heavens' Eye Materia VIII",
+                "nameKo": "심안의 엑스마테리쟈",
+                "shortName": "직격+60",
+                "iconSrc": "/icons/items/heavens-eye-materia-viii.png",
+                "materiaNumber": 8,
+                "attribute": {
+                  "wd": 0,
+                  "str": 0,
+                  "dex": 0,
+                  "int": 0,
+                  "mnd": 0,
+                  "ch": 0,
+                  "dh": 60,
+                  "det": 0,
+                  "sks": 0,
+                  "sps": 0,
+                  "ten": 0,
+                  "pie": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

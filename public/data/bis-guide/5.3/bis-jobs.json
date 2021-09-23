@@ -1,0 +1,97 @@
+{
+  "tanks": [
+    {
+      "name": "나이트",
+      "initial": "pld",
+      "enabled": true
+    },
+    {
+      "name": "전사",
+      "initial": "war",
+      "enabled": false
+    },
+    {
+      "name": "암흑기사",
+      "initial": "drk",
+      "enabled": false
+    },
+    {
+      "name": "건브레이커",
+      "initial": "gnb",
+      "enabled": false
+    }
+  ],
+  "healers": [
+    {
+      "name": "백마도사",
+      "initial": "whm",
+      "enabled": false
+    },
+    {
+      "name": "학자",
+      "initial": "sch",
+      "enabled": false
+    },
+    {
+      "name": "점성술사",
+      "initial": "ast",
+      "enabled": false
+    }
+  ],
+  "melees": [
+    {
+      "name": "몽크",
+      "initial": "mnk",
+      "enabled": false
+    },
+    {
+      "name": "용기사",
+      "initial": "drg",
+      "enabled": false
+    },
+    {
+      "name": "닌자",
+      "initial": "nin",
+      "enabled": false
+    },
+    {
+      "name": "사무라이",
+      "initial": "sam",
+      "enabled": false
+    }
+  ],
+  "physicalRanged": [
+    {
+      "name": "음유시인",
+      "initial": "brd",
+      "enabled": false
+    },
+    {
+      "name": "기공사",
+      "initial": "mch",
+      "enabled": false
+    },
+    {
+      "name": "무도가",
+      "initial": "dnc",
+      "enabled": false
+    }
+  ],
+  "magicalRanged": [
+    {
+      "name": "흑마도사",
+      "initial": "blm",
+      "enabled": false
+    },
+    {
+      "name": "소환사",
+      "initial": "smn",
+      "enabled": false
+    },
+    {
+      "name": "적마도사",
+      "initial": "rdm",
+      "enabled": false
+    }
+  ]
+}
